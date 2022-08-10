@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.mainPage {
+  width: 100vw;
+  height: 100vh;
+  background: #6c726e;
+}
+
+.bcgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.login {
+  width: 37%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 17%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px 5px rgb(35, 34, 34);
+}
+
+.header {
+  font-family: Pacifico, cursive;
+  color: #646464;
+  position: absolute;
+  top: 15%;
+}
+
+.description {
+  color: #8a8a85;
+  position: absolute;
+  top: 35%;
+  font-size: 23px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  width: 80%;
+}
+
+.loginForm label {
+  font-size: 16px;
+  color: #9d9d9a;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.formInput {
+  padding: 5px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-bottom: 1.7px solid #d5cccc;
+  border-bottom-width: 96%;
+  transition: all 0.5s;
+}
+
+.formInput:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1.7px solid #c1bcbc;
+}
+
+.submitBtn {
+  width: 40%;
+  padding: 10px 15px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  background-color: #6c726e;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-top: 20px;
+}
+
+.submitBtn:hover {
+  background-color: #5b5f5c;
+}
